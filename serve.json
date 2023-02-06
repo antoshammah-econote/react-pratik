@@ -1,0 +1,15 @@
+{
+  "public": "_site",
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "/build"
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/metronic/preview/react/econote-web/**",
+      "destination": "/metronic/preview/react/econote-web/index.html"
+    }
+  ]
+}
